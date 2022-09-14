@@ -1,112 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Ubuntu:wght@300&display=swap');
-html{
-    font-size: 62.5% ;
-}
-
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-/* header */
-h1 {
-    padding: 6px;
-    margin: 0 0 15px 0;
-}
-
-/* botonera */
-
-    nav ul li a{
-        margin: 20px auto;
-        text-decoration: none;
-        font-family: 'Ubuntu', sans-serif;
-        font-size: 1.4rem;
-        color: rgb(44, 42, 42); 
-        text-transform: uppercase;       
-    }
-
-     nav ul li a:hover{
-        text-decoration: underline;
-    }
-
-
-    
-/* footer */
-
-/* icono redes sociales */
-footer a img {
-    width: 25px;
-}
-footer p{
-    font-size: 1.5rem;
-    font-family: 'Montserrat', sans-serif;
-    padding: 2px 0px;
-}
-
-figcaption{
-    font-family: 'Ubuntu', sans-serif;  
-    font-size: 1.5rem; 
-    padding-left: 20px;
-    text-decoration: none;
-    color: rgb(44, 42, 42)
-
-    
-}
-     figcaption:hover{
-        text-decoration: underline;
-     }
-
-
-/* SELECTORES DE CLASE */
-
-/* texto */
-
-.font-monserrat{
-    font-family: 'Montserrat', sans-serif
-}
-
-.font-ubuntu{
-    font-family:'Ubuntu';
-}
-
-.font-size{
-font-size: 1.5rem;
-}
-
 .p-aromas{
     margin: auto;
 }
 
-/* fondos */
-.bg-brown{
-    background-color: rgb(201, 160, 133);
-    color: white;
-    font-family:'Montserrat', sans-serif;
-}
-
-.bg-gray{
-    background-color: rgb(44, 42, 42);
-    color: white;
-    font-family: 'Montserrat', sans-serif;
-}
-
-.bg-ligth{
-    background-color: rgba(rgb(189, 188, 188), 0.7)
-}
-
-/* IMÁGENES */
-
-.img-nosotros{
-    width: 35vw;
-    height: auto;
-}
-
-.img-carrusel{
-    height: auto;
-    width: 77vw;
-}
+//imágenes
 .img-16-9{
     height: auto;
     width: 16vw;
@@ -114,7 +10,6 @@ font-size: 1.5rem;
     /* margin-right: 20%; */
       
 }
-
 .img-aroma{
     height: auto;
     width: 40vw;
@@ -123,48 +18,7 @@ font-size: 1.5rem;
     margin-left: 2%;
 }
 
-/* ANIMACIONES */
-
-/* PARA LA NAV */
-
-.boton{
-    background-color:rgb(201, 160, 133);
-    color: white;
-    width: 30%;
-    height: auto;
-    font-size: 1.5rem;
-    
-}
-.scale:hover{
-    transform: scale(0.9);
-    cursor: pointer;
-    transition: transform 0.2s; 
-    color: white;
-}
-/* FLEX */ 
-
-.flex-direction{
-    flex-direction: column;
-    line-height: 30px;
-    padding-right: 30px;
-}
-
-.flex-end{
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;    
-}
-
-.flex-center{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-
-
-/* GRID */
-
+//GRID
 .grid-aromas{
     display: grid;
     width: 99%;
@@ -189,8 +43,7 @@ font-size: 1.5rem;
     grid-area: p-aromas;
 }
 
-/* BREAKPOINTS */
-
+//breakpoints
 @media (max-width:768px){
     .grid-aromas{
         grid-template-columns: 30vh 40vh 30vh;
@@ -326,21 +179,3 @@ font-size: 1.5rem;
     }
    
 }
-
-.nosotros-main{
-    display: flex;
-    flex-direction: row;
-}
-
-@media (max-width:992px){
-    .nosotros-main{
-        flex-direction: column;
-        justify-content: center;
-    }
-    .img-nosotros{
-        width: 80vw;
-        height: auto;
-    }
-
-}
-

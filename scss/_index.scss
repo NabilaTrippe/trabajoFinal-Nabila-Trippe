@@ -1,0 +1,44 @@
+
+//botonera
+nav {
+    
+      li{
+        margin: 10px
+    }
+    a{
+        margin: 20px auto;
+        text-decoration: none;
+        font-family: $font-title;
+        font-size: $font-md;
+        color: rgb(44, 42, 42); 
+        text-transform: uppercase;
+        font-weight: bold;  
+        &:hover{
+            transform: scale(0.9);
+            cursor: pointer;
+            transition: transform 0.2s; 
+            color: white;
+
+        }  
+    }   
+}
+
+//img carrusel
+.img-carrusel{
+    height: auto;
+    width: 77vw;
+}
+
+//footer
+footer{   
+    img { 
+        width: 25px;
+    } 
+    p {
+        font-size: 1.5rem;
+        font-family: 'Montserrat', sans-serif;
+        padding: 2px 0px;
+        
+    }
+}
+
