@@ -10,7 +10,7 @@ html {
   box-sizing: border-box;
 }
 
-.font-monserrat {
+.bg-colors::after .font-monserrat {
   font-family: "Montserrat", sans-serif;
 }
 
@@ -73,7 +73,7 @@ html {
 nav li {
   margin: 10px;
 }
-nav a {
+nav li a {
   margin: 20px auto;
   text-decoration: none;
   font-family: "Montserrat", sans-serif;
@@ -82,7 +82,7 @@ nav a {
   text-transform: uppercase;
   font-weight: bold;
 }
-nav a:hover {
+nav li a:hover {
   transform: scale(0.9);
   cursor: pointer;
   transition: transform 0.2s;
@@ -91,7 +91,7 @@ nav a:hover {
 
 .img-carrusel {
   height: auto;
-  width: 77vw;
+  width: 90vw;
 }
 
 footer img {
