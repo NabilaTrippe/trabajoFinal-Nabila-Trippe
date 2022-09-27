@@ -19,7 +19,7 @@
         <h1 class="bg-gray p-3 mb-3"> Velas de cera de soja 100% naturales y handmade</h1>
         <!-- starts nav -->
         <nav class="navbar navbar-expand-lg navbar-light">
-            <div class="container mb-3">
+            <div class="container mb-3 flex-nav">
                 <a class="navbar-brand" href="index.html"> 
                   <img src="img/index/logo.png" alt="Logo de Soha Velas">
                 </a>
@@ -30,7 +30,7 @@
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                    <a class="nav-link" aria-current="page" href="index.html">Inicio</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="nosotros.html">Nosotros</a>
@@ -57,16 +57,28 @@
             </div>
           </nav>
          <!-- ends nav -->
+         <!-- inicia breadcrumbs -->
+        <div style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+          <ol class="breadcrumb ms-5 mb-5 ps-5">
+            <li class="breadcrumb-item breadcrumbs"><a href="#">Inicio</a></li>
+            <li class="breadcrumb-item breadcrumbs" aria-current="page">Aromas</li>
+          </ol>
+        </div>
+        <!-- ends breadcrumb -->
     </header>
      <main class="grid-aromas">
         
-            <div id="aromas-img-1" class="flex-center img-16-9 mt-5" >
+            <div id="aromas-img-1" class="flex-center img-16-9 mt-1" >
                 <img src="img/aromas.html/esencia-concentrada-de-coco-y-vainilla.webp" alt="Foto de esencia concentrada aroma Coco y Vainilla de la marca Soha" class="img-16-9 grid-img1" >
             </div>  
             <div id="aromas-p" class="p-aromas mt-5">  
-                <p class="font-ubuntu text-center font-size" >Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus ducimus ea nam error magnam assumenda omnis quos, enim culpa dolorem commodi possimus illum eum repellat, debitis excepturi numquam impedit! Tempora. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia molestiae deserunt ullam aut delectus quo nulla neque facilis at fugit voluptatem magnam magni, earum velit, recusandae odio quasi debitis animi. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam voluptatibus dolorem voluptatem quae! Laudantium reprehenderit ab iusto, maxime alias nobis sapiente dolore ullam eligendi eos! Eligendi velit ipsam explicabo cum!</p>
+                <p class="font-aromas" > Somos fan de los aromas, por eso, en Soha nos guía un único interés: ofrecerte productos que realmente perfumen tus días, con aromas 100% concentrados. Cada una de las esencias utilizadas son pensadas y probadas con dedicación y esmero.
+                  <br> Los aromas pueden variar según la estación del año, siendo las utilizadas actualmente: 
+                  <br> Coco y Vainilla (¡la más elegida!) / Naranja y Limón / Mango y Ananá / Lavanda.
+                  <br> Una vez que elijas tu favorito, ¡no vas a poder vivir sin él! 
+                </p>
             </div>
-            <div id="aromas-img-2" class="flex-center img-16-9 mt-5">
+            <div id="aromas-img-2" class="flex-center img-16-9 mt-1">
                 <img src="img/aromas.html/home-spray-de-aroma-fresias-y-limon.webp" alt="Foto de Home Spray aroma Fresias y Limón de la marca Soha" class="img-16-9" >
             </div>
             <div id="aromas-img-3" class="flex-center">
@@ -74,14 +86,55 @@
             </div>  
         
     </main>
-    <footer class="bg-brown text-center mt-5 pb-2 pt-2">
-        <p>Seguinos en Redes Sociales</p>
-        <a href="https://www.facebook.com/" target="_blank">
-            <img class="me-3" src="img/facebook-bc.png" alt="Seguinos en Facebook">
-        </a>
-        <a href="https://www.instagram.com/" target="_blank">
-            <img src="img/ig-bco.png" alt="Seguinos en Instagram">
-        </a>
+    <!-- EMPIEZA FOOTER -->
+    <footer class="bg-brown mt-5 pb-2 pt-2 px-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 col-md-6 col-lg-4 mb-3 flex-div-footer">
+            <ul>
+              <li class="fw-bold my-3"> NAVEGACIÓN</li>
+              <li>
+                <a href="index.html">Inicio</a>
+              </li>
+              <li>
+                <a href="nosotros.html">Nosotros</a>
+              </li>
+              <li>
+                <a href="productos.html">Productos</a>
+              </li>
+              <li>
+                <a href="aromas.html">Aromas</a>
+              </li>
+              <li>
+                <a href="contacto.html">Contacto</a>
+              </li>
+            </ul>
+          </div>
+              <!-- inicia contactanos -->
+          <div class="col-sm-12 col-md-6 col-lg-4 mb-3 flex-div-footer">
+             <ul>
+                <li class= "fw-bold my-3"> CONTACTANOS</li>
+                <li class="mb-2">
+                  <a href="#"> <img class="me-1" src="img/footer/icon-mail-bco.png" alt="Icono de mail"> sohavelas@hotmail.com</a>
+                </li>
+                <li>
+                  <a href="#"> <img class="me-1" src="img/footer/icon-whatsapp-bco.png" alt="Icono de whatsapp"> +54 2262339386</a>
+                </li>
+              </ul>
+            </div>
+            <!-- termina contactanos -->
+          <div class="col-sm-12 col-md-6 col-lg-4 mb-3 flex-div-redes">
+            <p>Seguinos en Redes Sociales</p>
+            <div>
+              <a href="https://www.facebook.com/" target="_blank">
+                  <img class="me-3" src="img/footer/facebook-bc.png" alt="Seguinos en Facebook">
+              </a>
+              <a href="https://www.instagram.com/" target="_blank">
+                  <img src="img/footer/ig-bco.png" alt="Seguinos en Instagram">
+              </a>
+          </div>
+        </div>
+      </div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script> 
 </body>

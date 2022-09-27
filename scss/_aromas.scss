@@ -2,6 +2,12 @@
     margin: auto;
 }
 
+.font-aromas{
+    @include text ($font-content, $font-md, $font-gray);
+    text-align: center;
+}
+
+
 //imágenes
 .img-16-9{
     height: auto;

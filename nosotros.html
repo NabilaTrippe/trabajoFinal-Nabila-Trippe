@@ -19,7 +19,7 @@
         <h1 class="bg-gray p-3 mb-3"> Velas de cera de soja 100% naturales y handmade</h1>
          <!-- starts nav -->
          <nav class="navbar navbar-expand-lg navbar-light">
-            <div class="container mb-3">
+            <div class="container mb-3 flex-nav">
                 <a class="navbar-brand" href="index.html"> 
                   <img src="img/index/logo.png" alt="Logo de Soha Velas">
                 </a>
@@ -30,7 +30,7 @@
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                    <a class="nav-link" aria-current="page" href="index.html">Inicio</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="nosotros.html">Nosotros</a>
@@ -59,14 +59,30 @@
             </div>
           </nav>
          <!-- ends nav -->
+           <!-- inicia breadcrumbs -->
+      <div style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+        <ol class="breadcrumb ms-5 mb-auto ps-5">
+          <li class="breadcrumb-item breadcrumbs"><a href="#">Inicio</a></li>
+          <li class="breadcrumb-item breadcrumbs" aria-current="page">Nosotros</li>
+        </ol>
+      </div>
+      <!-- ends breadcrumb -->
     </header>
      <main class="scroll-nosotros">
+      
+    
+       
         <div class="conteiner-fluid ">
             <div class="row ">
               <div class="nosotros-main">
                 <section class="mx-5 mt-5">
                   <h2 class="font-monserrat fs-2 fw-bold mb-5 text-center"> Un poquito sobre nosotras...</h2>
-                  <p class="font-monserrat fs-4 text-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quia, eum sed expedita voluptatum ut natus, consectetur aliquam distinctio culpa corporis animi vero enim iste cum consequuntur? Vel minus consequatur iure! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo sint placeat quasi cum nemo, voluptatibus sapiente, quam ex libero, et pariatur culpa excepturi nam dolorem quis ab quia? Pariatur, rem! Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio non, nisi porro consequuntur incidunt dolorum aspernatur assumenda sunt quas expedita ea tempora? Voluptate natus, at voluptas fugiat beatae labore quasi! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque cum quas eius. Sint pariatur quo ea eius libero enim consequuntur amet hic voluptatem veritatis nemo rerum nulla vero, qui aliquid?</p>
+                  <p class="font-monserrat fs-4 text-center">Somos Nabi y Nati: amigas, emprendedoras y creadoras de este hermoso proyecto. 
+                    <br> <br> Soha nace en contexto de pandemia, en el año 2020, con muchas charlas delirantes y unos cuántos "¿y que tal si?...", dando forma, de a poquito, a este emprendimiento que hoy tanto amamos. 
+                    <br> Somos de la hermosa ciudad de Necochea, en la costa de la Provincia de Buenos Aires.
+                    <br> <br> Nuestro amor por los aromas y los espacios perfumados nos llevó a crear velas de cera de soja que perfuman aún apagadas (¡y ni hablar encendidas!), ya que nuestras esencias son realmente concentradas. No tenemos dudas que en cuánto las sientas, va a ser un viaje de ida.
+                    <br> Te invitamos a cambiar la onda de tus espacios, aromatizándolos de manera personalizada, haciendo de tu casa un verdadero lugar de relax y disfrute.
+                  </p>
                 </section>
                 <section class="mt-5 me-5 flex-center">
                   <img class="img-nosotros" src="img/nosotros/nosotros-img-necochea.jpg" alt="Foto de la ciudad de Necochea, atardecer en la playa">
@@ -75,15 +91,56 @@
             </div>  
         </div>
     </main>
-    <footer class="bg-brown text-center mt-5 pb-2 pt-2">
-        <p>Seguinos en Redes Sociales</p>
-        <a href="https://www.facebook.com/" target="_blank">
-            <img class="me-3" src="img/facebook-bc.png" alt="Seguinos en Facebook">
-        </a>
-        <a href="https://www.instagram.com/" target="_blank">
-            <img src="img/ig-bco.png" alt="Seguinos en Instagram">
-        </a>
-    </footer> 
+    <!-- EMPIEZA FOOTER -->
+    <footer class="bg-brown mt-5 pb-2 pt-2 px-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 col-md-6 col-lg-4 mb-3 flex-div-footer">
+            <ul>
+              <li class="fw-bold my-3"> NAVEGACIÓN</li>
+              <li>
+                <a href="index.html">Inicio</a>
+              </li>
+              <li>
+                <a href="nosotros.html">Nosotros</a>
+              </li>
+              <li>
+                <a href="productos.html">Productos</a>
+              </li>
+              <li>
+                <a href="aromas.html">Aromas</a>
+              </li>
+              <li>
+                <a href="contacto.html">Contacto</a>
+              </li>
+            </ul>
+          </div>
+              <!-- inicia contactanos -->
+          <div class="col-sm-12 col-md-6 col-lg-4 mb-3 flex-div-footer">
+             <ul>
+                <li class= "fw-bold my-3"> CONTACTANOS</li>
+                <li class="mb-2">
+                  <a href="#"> <img class="me-1" src="img/footer/icon-mail-bco.png" alt="Icono de mail"> sohavelas@hotmail.com</a>
+                </li>
+                <li>
+                  <a href="#"> <img class="me-1" src="img/footer/icon-whatsapp-bco.png" alt="Icono de whatsapp"> +54 2262339386</a>
+                </li>
+              </ul>
+            </div>
+            <!-- termina contactanos -->
+          <div class="col-sm-12 col-md-6 col-lg-4 mb-3 flex-div-redes">
+            <p>Seguinos en Redes Sociales</p>
+            <div>
+              <a href="https://www.facebook.com/" target="_blank">
+                  <img class="me-3" src="img/footer/facebook-bc.png" alt="Seguinos en Facebook">
+              </a>
+              <a href="https://www.instagram.com/" target="_blank">
+                  <img src="img/footer/ig-bco.png" alt="Seguinos en Instagram">
+              </a>
+          </div>
+        </div>
+      </div>
+    </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>
