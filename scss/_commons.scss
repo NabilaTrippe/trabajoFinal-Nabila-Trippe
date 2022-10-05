@@ -46,6 +46,7 @@ $bg-colors:(
 
 //SELECTORES DE CLASES
 
+
 .breadcrumbs{
     @include text ($font-content, $font-md, $font-gray);
     a {
@@ -144,6 +145,10 @@ $bg-colors:(
     display: flex;
     justify-content:center;
     align-items: center;
+}
+
+.flex-c{
+    @include flex (column, center, center);
 }
 
 .flex-space{

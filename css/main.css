@@ -98,11 +98,22 @@ html {
   align-items: center;
 }
 
+.flex-c {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .flex-space {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+}
+
+#logo {
+  width: 80%;
 }
 
 nav li {
@@ -212,157 +223,26 @@ footer p {
   align-items: center;
 }
 
-.p-aromas {
-  margin: auto;
-}
-
 .font-aromas {
   font-family: "Ubuntu";
   font-size: 1.5rem;
   color: rgb(44, 42, 42);
   text-align: center;
+  width: 90%;
 }
 
 .img-16-9 {
   height: auto;
-  width: 16vw;
-  margin-left: 20%;
+  width: 20vw;
+  margin: 5% 5%;
   /* margin-right: 20%; */
+  -o-object-fit: fill;
+     object-fit: fill;
 }
 
 .img-aroma {
   height: auto;
-  width: 40vw;
+  width: 90%;
   /* padding-top: 10%; */
-  margin-top: 15%;
-  margin-left: 2%;
-}
-
-.grid-aromas {
-  display: grid;
-  width: 99%;
-  justify-content: center;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: 70% 30%;
-  grid-template-areas: "img-1 p-aromas img-2" "img-1 img-3 img-2";
-}
-
-#aromas-img-1 {
-  grid-area: img-1;
-}
-
-#aromas-img-2 {
-  grid-area: img-2;
-}
-
-#aromas-img-3 {
-  grid-area: img-3;
-}
-
-#aromas-p {
-  grid-area: p-aromas;
-}
-
-@media (max-width: 768px) {
-  .grid-aromas {
-    grid-template-columns: 30vh 40vh 30vh;
-    grid-template-rows: 30vw 10vw 60vw;
-    grid-template-areas: "p-aromas p-aromas p-aromas" "img-3 img-3 img-3" "img-1 . img-2";
-  }
-  .p-aromas {
-    padding-top: 7%;
-    padding-bottom: 70%;
-    margin: 0 10%;
-  }
-  .img-aroma {
-    height: auto;
-    width: 80vw;
-    margin-top: 2%;
-    margin-left: 2%;
-    padding-bottom: 40%;
-  }
-  nav ul {
-    width: 70vw;
-  }
-  .flex-center {
-    align-items: flex-start;
-  }
-  .img-16-9 {
-    height: auto;
-    width: 28vw;
-    margin-left: auto;
-    margin-right: 4%;
-    padding-top: 12%;
-  }
-}
-@media (max-width: 700px) {
-  .grid-aromas {
-    grid-template-columns: 1fr;
-    grid-template-rows: 35% 20% 10% 35%;
-    grid-template-areas: "img-1" "p-aromas" "img-3" "img-2";
-  }
-  .img-16-9 {
-    height: auto;
-    width: 30vw;
-    margin-top: 2%;
-    margin-right: 30%;
-    padding-top: 0%;
-    padding-bottom: 5%;
-  }
-  .p-aromas {
-    margin: 5% 10% 0% 10%;
-    padding-top: 0%;
-    padding-bottom: 0%;
-  }
-  .img-aroma {
-    height: auto;
-    width: 80vw;
-    padding-bottom: 0%;
-  }
-}
-@media (max-width: 568px) {
-  .grid-aromas {
-    grid-template-columns: 1fr;
-    grid-template-rows: 35% 20% 10% 35%;
-    grid-template-areas: "img-1" "p-aromas" "img-3" "img-2";
-  }
-  .p-aromas {
-    margin: 0% 10% 0% 10%;
-    padding-top: 0%;
-    padding-bottom: 0%;
-  }
-  .img-aroma {
-    height: auto;
-    width: 80vw;
-    padding-bottom: 0%;
-    margin-top: 5%;
-    margin-bottom: 10%;
-  }
-}
-@media (max-width: 480px) {
-  .grid-aromas {
-    grid-template-columns: 1fr;
-    grid-template-rows: 30% 30% 10% 30%;
-    grid-template-areas: "img-1" "p-aromas" "img-3" "img-2";
-  }
-  nav ul {
-    width: 90vw;
-  }
-  .img-16-9 {
-    height: auto;
-    width: 30vw;
-    margin-right: 30%;
-    padding-top: 0%;
-  }
-  .p-aromas {
-    margin: 5% 10% 0% 10%;
-    padding-top: 0%;
-    padding-bottom: 0%;
-  }
-  .img-aroma {
-    height: auto;
-    width: 80vw;
-    padding-bottom: 0%;
-    margin: 4% 0% 4% 0%;
-  }
+  margin: 5% 0%;
 }/*# sourceMappingURL=main.css.map */
