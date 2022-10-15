@@ -20,8 +20,8 @@
 //breakpoints
 @media (max-width:992px){
     .nosotros-main{
-        flex-direction: column;
-        justify-content: center;
+        @include flex (column,center,center);
+    
     }
     .img-nosotros{
         width: 80vw;

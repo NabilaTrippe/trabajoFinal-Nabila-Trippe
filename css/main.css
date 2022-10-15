@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Ubuntu:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
 html {
   font-size: 62.5%;
 }
@@ -208,8 +209,10 @@ footer p {
 
 @media (max-width: 992px) {
   .nosotros-main {
+    display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
   }
   .img-nosotros {
     width: 80vw;
@@ -242,7 +245,73 @@ footer p {
 
 .img-aroma {
   height: auto;
-  width: 90%;
+  width: 80%;
   /* padding-top: 10%; */
   margin: 5% 0%;
+}
+
+@media (max-width: 768px) {
+  .img-aroma {
+    width: 70%;
+  }
+}
+@media (max-width: 576px) {
+  .img-16-9 {
+    width: 30vw;
+  }
+  .img-aroma {
+    width: 90%;
+  }
+}
+.img-vela {
+  height: 80vh;
+  width: auto;
+}
+
+.text-error, .text-error-content, .text-error-content a {
+  font-family: "Bebas Neue";
+  font-size: 20rem;
+  color: rgb(44, 42, 42);
+  margin: 0% 5%;
+}
+
+.text-error-content, .text-error-content a {
+  font-size: 5rem;
+  text-align: center;
+}
+.text-error-content a {
+  margin: auto;
+  color: white;
+  background-color: rgb(44, 42, 42);
+  width: 10vw;
+  height: auto;
+}
+.text-error-content a:hover {
+  transform: scale(0.9);
+  cursor: pointer;
+  transition: transform 0.2s;
+  color: white;
+}
+
+.flex-error {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+@media (max-width: 768px) {
+  .flex-error {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .img-vela {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+  }
 }/*# sourceMappingURL=main.css.map */

@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 html{
     font-size: 62.5% ;
 }
@@ -15,6 +16,7 @@ html{
 //fonts family
 $font-title: 'Montserrat', sans-serif;
 $font-content:'Ubuntu';
+$font-error: 'Bebas Neue';
 
 //fonts size
 $font-md: 1.5rem;
@@ -152,5 +154,5 @@ $bg-colors:(
 }
 
 .flex-space{
-    @include flex (row,space-between, center);
+    @include flex (row,space-between,center);
 }
